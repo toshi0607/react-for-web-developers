@@ -11,7 +11,6 @@ var RadioButton = React.createClass({
       <div>
         <input
           type='radio'
-          name='三択'
           value='first'
           checked={this.state.selection === 'first'}
           onChange={this.handleChange}
@@ -20,7 +19,6 @@ var RadioButton = React.createClass({
       <div>
         <input
           type='radio'
-          name='三択'
           value='second'
           checked={this.state.selection === 'second'}
           onChange={this.handleChange}
@@ -29,7 +27,6 @@ var RadioButton = React.createClass({
       <div>
         <input
           type='radio'
-          name='三択'
           value='third'
           checked={this.state.selection === 'third'}
           onChange={this.handleChange}
