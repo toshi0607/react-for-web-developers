@@ -10,7 +10,6 @@ var FormSubmit = React.createClass({
     } else {
       selection.splice(position, 1);
     }
-    debugger
     this.setState({selection: selection});
   },
   handleSubmit: function(event) {
